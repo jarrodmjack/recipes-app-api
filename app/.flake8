@@ -1,0 +1,7 @@
+#excluding these files in the /app directory from getting linted
+[flake8]
+exclude =
+    migrations,
+    __pycache__,
+    manage.py,
+    settings.py
